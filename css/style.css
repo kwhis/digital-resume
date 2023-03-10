@@ -18,6 +18,14 @@ img {
     width: 300px;
 }
 
+a {
+    color: #FFE66D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 /*Profile
 -------------------------------------------*/
 header {
@@ -29,6 +37,27 @@ header {
 -------------------------------------------*/
 .projects {
     background-color: #F7FFF7;
+}
+
+.projects p a {
+    color: #2F3061;
+    text-decoration: underline;
+}
+
+.projects p a:hover {
+    text-decoration: none;
+}
+
+.projects .btn {
+    background-color: #2F3061;
+    color: #F7FFF7;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    text-decoration: none;
+    background-color: rgba(47, 48, 97, 80%);
 }
 
 /*Work Experience

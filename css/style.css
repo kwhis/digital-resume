@@ -10,24 +10,39 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /*Global Styles
 -------------------------------------------*/
+body {
+ color: #343434;
+}
+
 img {
     width: 300px;
 }
 
 /*Profile
 -------------------------------------------*/
+header {
+    background-color: #2F3061;
+    color: #F7FFF7;
+}
 
 /*Projects
 -------------------------------------------*/
-
+.projects {
+    background-color: #F7FFF7;
+}
 
 /*Work Experience
 -------------------------------------------*/
-
+.work-experience {
+    background-color: #A1C6D7;
+}
 
 /*Education
 -------------------------------------------*/
 
-
 /*Contact
 -------------------------------------------*/
+footer {
+    background-color: #343434;
+    color: #FFE66D;
+}

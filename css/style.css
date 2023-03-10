@@ -26,6 +26,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
 /*Profile
 -------------------------------------------*/
 header {

@@ -64,6 +64,7 @@ h2 {
 /*Profile
 -------------------------------------------*/
 header {
+    text-align: center;
     background-color: #2F3061;
     color: #F7FFF7;
 }
@@ -124,5 +125,18 @@ header {
 -------------------------------------------*/
 footer {
     background-color: #343434;
-    color: #FFE66D;
+    color: #F7FFF7;
+    text-align: center;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list a {
+    display: inline-block;
+    padding: 12px;
 }

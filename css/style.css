@@ -10,6 +10,14 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /*Global Styles
 -------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,*::before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Hind', sans-serif;
     color: #343434;
@@ -64,6 +72,21 @@ header {
 -------------------------------------------*/
 .projects {
     background-color: #F7FFF7;
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
 }
 
 .projects p a {

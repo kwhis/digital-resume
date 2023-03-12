@@ -55,6 +55,18 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    margin-bottom: 0; 
+}
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
 .content-wrap {
     width: 800px;
     margin: 0 auto;
@@ -126,6 +138,9 @@ header {
 
 /*Education
 -------------------------------------------*/
+.certifications {
+    padding-top: 50px;
+}
 
 /*Contact
 -------------------------------------------*/

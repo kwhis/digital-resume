@@ -73,6 +73,15 @@ h3 {
     padding: 60px 0;
 }
 
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
 /*Profile
 -------------------------------------------*/
 header {
@@ -89,8 +98,6 @@ header {
 
 .project-item {
     overflow: hidden;
-    border-bottom: 1px dashed #343434;
-    padding: 25px 0;
 }
 
 .project-item img {

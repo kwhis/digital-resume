@@ -146,8 +146,22 @@ header {
 
 /*Education
 -------------------------------------------*/
+.education {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: top right;
+}
+
 .certifications {
     padding-top: 50px;
+}
+
+.education a {
+    color: #343434;
+}
+
+.education a:hover {
+    color: #F7FFF7;
 }
 
 /*Contact
